@@ -3,8 +3,8 @@ package io.javabrains.springsecurityjpa.models;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "User")
-public class User {
+@Table(name = "MyUser")
+public class MyUser {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
